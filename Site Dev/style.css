@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    padding: 15px 8%;
+}
+
+header .logo {
+    cursor: pointer;
+    background-color: rgb(180, 115, 54);
+    border-radius: 50px;
+}
+
+header nav .nav-links{
+    list-style: none;
+    
+}
+
+header nav .nav-links li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+header nav .nav-links li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+header nav .nav-links li a:hover {
+    color: rgb(255, 196, 0);
+    transition: 0.25s;
+}
+
+button {
+    background-color: rgb(245, 165, 16);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+main .section1 .background1 {
+    background-image: url(/image/black-brick-stone-wall-texture-background-with-old-dirty-and-vintage-style-pattern.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0 0 0;
+}
+main .section1 .background1 .SVG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+main .section1 .background1 h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+main .section1 .background1 h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    font-size: 5rem;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+main .section1 .background1 h1:hover{
+    transition: 0.5s;
+    color: rgb(255, 153, 0); 
+}
+
+.section2 {
+    border-bottom: 4px solid rgb(255, 187, 0);
+}
+
+.section2 .title3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+.section2 .titleh2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    color: grey;
+    border-bottom: 4px solid rgb(255, 208, 0);
+    
+}
+
+.section2 .container1 {
+    margin-top: 100px;
+    justify-content: center;
+    height: 45vh;
+    display: flex;
+}
+
+
+
+.section2 .container1 .gauche { 
+    width: 500px;
+    text-align: center;
+    margin-right: 60px;
+}
+.section2 .container1 .gauche h1 {
+    font-size: 2rem;
+}
+.section2 .container1 .gauche p {
+    margin-top: 20px;
+}
+
+.section2 .container1 .gauche {
+    background-color: rgb(214, 214, 214);
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.section2 .container1 .mid img {
+    width: 400px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.section2 .container1 .droite {
+    text-align: center;
+    margin-left: 60px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.section2 .container1 .droite h1 {
+    font-size: 2rem
+}
+.section2 .container1 .droite p {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.competence .le-tout {
+    display: flex;
+    justify-content: center;
+}
+
+.competence .le-tout .partie-gauche {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.competence .le-tout .partie-droite {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.competence .title2 {
+    margin-top: 50px;
+}
+
+.competence .en-tete1 {
+    color: white;
+    margin-top: 70px;
+    background-color: rgb(31, 31, 31);
+    height: 200px;
+    padding-top: 10px;
+}
+.competence .en-tete1:hover {
+    color: rgb(255, 196, 0);
+}
+
+.competence .en-tete1 h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.competence .en-tete1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.competence .en-tete1 h2:hover {
+    color: rgb(255, 196, 0);
+}
+
+
+.competence .container1-5 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.competence .container1-5 .logo-check{
+    margin: 4px 4px 0 0; 
+    width: 20px;
+    height: 20px;
+    background-color: rgb(9, 255, 0);
+    border-radius: 50px;
+}
+
+.competence .container2 h1 {
+    font-size: 1rem;
+}
+
+
+
+.le-tout .partie-droite .title3 {
+    margin-top: 50px;
+}
+
+.le-tout .partie-droite .HT {
+    margin-top: 10px;
+    width: 400px;
+    height: 35px;
+    background-color: rgb(255, 0, 0);
+}
+.le-tout .partie-droite .HT .HTML {
+    width: 300px;
+    height: 35px;
+    background-color: rgb(72, 255, 0);
+}
+
+.le-tout .partie-droite .CS {
+    margin: 10px 0 10px 0;
+    width: 400px;
+    height: 35px;
+    background-color: rgb(255, 0, 0);
+}
+
+.le-tout .partie-droite .CSS {
+    width: 300px;
+    height: 35px;
+    background-color: rgb(72, 255, 0);
+}
+
+.le-tout .partie-droite .JS {
+    margin: 0 0 10px 0;
+    width: 400px;
+    height: 35px;
+    background-color: rgb(255, 0, 0);
+}
+
+.le-tout .partie-droite .JAVASCRIPT {
+    width: 245px;
+    height: 35px;
+    background-color: rgb(72, 255, 0);
+}
+
+.le-tout .partie-droite .PH {
+    margin: 0 0 10px 0;
+    width: 400px;
+    height: 35px;
+    background-color: rgb(255, 0, 0);
+}
+
+.le-tout .partie-droite .PHP {
+    width: 175px;
+    height: 35px;
+    background-color: rgb(72, 255, 0);
+}
+
+.le-tout .partie-droite .BO {
+    margin: 0 0 10px 0;
+    width: 400px;
+    height: 35px;
+    background-color: rgb(255, 0, 0);
+}
+
+.le-tout .partie-droite .BOOTSTRAP {
+    width: 105px;
+    height: 35px;
+    background-color: rgb(72, 255, 0);
+}
+
+.le-tout .partie-droite .graphique .PHOTO {
+    margin: 10px 0 10px 0;
+    width: 400px;
+    height: 35px;
+    background-color: rgb(255, 0, 0);
+}
+
+.le-tout .partie-droite .graphique .PHOTOSHOP {
+    width: 125px;
+    height: 35px;
+    background-color: rgb(72, 255, 0);
+}
+
+.le-tout .partie-droite .graphique .ILLUS {
+    margin: 0 0 10px 0;
+    width: 400px;
+    height: 35px;
+    background-color: rgb(255, 0, 0);
+}
+
+.le-tout .partie-droite .graphique .ILLUSTRATOR {
+    width: 125px;
+    height: 35px;
+    background-color: rgb(72, 255, 0);
+}
